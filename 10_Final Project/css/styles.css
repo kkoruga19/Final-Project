@@ -1,0 +1,390 @@
+body {
+  font-size: 16px;
+  font-family: avenir;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: avenir;
+}
+
+.white {
+  color: white;
+  font-size: 19px;
+  font-family: avenir;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #646363;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  font-family: avenir;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+
+.navlink1 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: avenir;
+}
+
+.navlink2 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: avenir;
+}
+
+.navlink3 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: avenir;
+}
+
+.navlink4 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: avenir;
+}
+
+.navlink5 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-family: avenir;
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+.flex-container1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: #d8d8d8;
+}
+
+.yellowbutton {
+  background-color: #646363;
+  color: white;
+  padding: 0.3rem 0.4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "open sans", sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+
+.breakbutton {
+  line-height: 50px;
+  color: #646363;
+  font-family: "open sans", sans-serif;
+  font-size: 32px;
+  align-items: center;
+  margin-top: 10rem;
+  padding: 3rem;
+}
+
+.logo1 {
+  align-self: flex-start;
+  color: white;
+  margin-left: 4rem;
+  padding-left: 4rem;
+}
+
+.flex-container2 {
+  background-color: #ececec;
+  margin: 0px;
+  padding-top: 5rem;
+  font-size: 20px;
+  text-align: left;
+  font-family: "open sans", sans-serif;
+  font-weight: lighter;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  max-height: 250px;
+}
+
+.header {
+  color: #646363;
+  font-family: "open sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+}
+
+.section2 {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #646363;
+  margin-left: 7rem;
+}
+
+li {
+  margin-left: 9rem;
+}
+
+.flex-container3 {
+  background-color: lightgrey;
+  margin: 0px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 30px;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.quote {
+  font-family: "open sans", sans-serif;
+  font-size: 17px;
+  color: #646363;
+  font-style: italic;
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockquote {
+  align-items: center;
+  justify-content: center;
+}
+
+.saidquote {
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.flex-container4 {
+  background-color: grey;
+  margin: 0px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 30px;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #252838;
+  color: white;
+  padding: 0.6rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "open sans", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.flex-container5 {
+  background-color: #646363;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.section5 {
+  font-family: "open sans", sans-serif;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 3rem;
+  padding-top: 1.3rem;
+}
+
+.logo2 {
+  color: white;
+  font-family: "open sans", sans-serif;
+  font-size: 17px;
+}
+
+.iframe {
+  padding-top: 10rem;
+}
+
+/*PHOTOS*/
+#photo-container {
+  width: 80%;
+  height: 450px;
+  border: none;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+}
+
+#photo-container > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+}
+
+#photo-container > #btn1 {
+  position: absolute;
+  width: 50px;
+  height: 50 px;
+  border: none;
+  border-radius: 25px;
+  top: 200px;
+  background: #646363;
+  color: white;
+  font-size: 20px;
+}
+
+#photo-container > #btn2 {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50 px;
+  border: none;
+  border-radius: 25px;
+  top: 200px;
+  background: #646363;
+  color: white;
+  font-size: 20px;
+}
+
+/*GRID*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #646363;
+  padding: 10px;
+  width: 80%;
+  height: 490px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  padding-right: 2rem;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 200px;
+}
+
+/*THIS IS THE CONTACT SHEET*/
+h3 {
+  padding: 16px;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+
+.main-form {
+  background: #646363;
+  padding: 32px 100px;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.gt-input {
+  width: 400px;
+  height: 48px;
+  padding: 0px 20px;
+  font-size: 20px;
+  border: 0px;
+}
+
+.gt-text {
+  padding: 10px 20px;
+  height: 100px;
+  width: 100%;
+}
+
+.gt-input:focus {
+  outline: none;
+}
+
+label {
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+  transition: all 4s;
+  top: 24px;
+  transform: translateY(-50%);
+  margin-left: 24px;
+  cursor: text;
+  z-index: 1;
+}
+
+.gt-button {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border: 0px;
+  color: white;
+  background: grey;
+  transition: 4s;
+}
+
+.gt-button:hover {
+  background: darkgray;
+}
+
+.form-status {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: -24px;
+}
+
+.move-up {
+  margin-top: -32px;
+  margin-left: 0px;
+  font-size: 14px;
+  background: red;
+  border-radius: 8px 0px;
+  color: white;
+  padding: 4px 8px;
+  min-width: 100px;
+}
